@@ -12,7 +12,7 @@ const useLogin = () => {
 		setLoading(true);
 		try {
 			const res = await fetch(
-        'https://realtimechatapplication-fq75.onrender.com/api/auth/login',
+        '/api/auth/login',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

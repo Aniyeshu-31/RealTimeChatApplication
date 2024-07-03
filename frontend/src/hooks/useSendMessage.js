@@ -10,7 +10,7 @@ const useSendMessage = () => {
 		setLoading(true);
 		try {
 			const res = await fetch(
-        `https://realtimechatapplication-fq75.onrender.com/api/messages/send/${selectedConversation._id}`,
+        `/api/messages/send/${selectedConversation._id}`,
         {
           method: 'POST',
           headers: {

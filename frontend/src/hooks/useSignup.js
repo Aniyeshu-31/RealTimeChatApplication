@@ -13,7 +13,7 @@ const useSignup = () => {
 		setLoading(true);
 		try {
 			const res = await fetch(
-        'https://realtimechatapplication-fq75.onrender.com/api/auth/signup',
+        '/api/auth/signup',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

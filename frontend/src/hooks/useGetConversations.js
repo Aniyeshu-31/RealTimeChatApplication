@@ -10,7 +10,7 @@ const useGetConversations = () => {
 			setLoading(true);
 			try {
 				const res = await fetch(
-          'https://realtimechatapplication-fq75.onrender.com/api/users'
+          '/api/users'
         )
 				const data = await res.json();
 				if (data.error) {
